@@ -25,7 +25,7 @@ export default function Rules() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={handleClose}
-            className="absolute inset-0 z-50 grid place-items-center bg-black bg-opacity-50"
+            className="fixed inset-0 z-50 grid place-items-center bg-black bg-opacity-50"
           >
             <motion.div
               initial={{ scale: 0.95 }}
